@@ -325,6 +325,31 @@
   PDF
 </a>
 
+   
+<a class="btn btn-primary btn-outline btn-xs"
+onclick="
+    var div = document.getElementById('captionquestions_bib');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+">
+  BibTeX
+</a>
+
+
+<pre id = "captionquestions_bib", style="display:none">
+@article{choudhary2020neural,
+  title={Neural Machine Translation for Low-Resourced Indian Languages},
+  author={Choudhary, Himanshu and Rao, Shivansh and Rohilla, Rajesh},
+  journal={arXiv preprint arXiv:2004.13819},
+  year={2020}
+}
+</pre>
+   
+      
 </p>
   </div>
 </li>
